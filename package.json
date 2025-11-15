@@ -1,0 +1,60 @@
+{
+    "name": "@workinprogress-ai/eslint-config",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "Eslint and Prettier configurations for WIP projects",
+    "author": "WIP Team",
+    "packageManager": "bun@1.3.2",
+    "sideEffects": false,
+    "main": "./eslint.base.config.js",
+    "files": [
+        "*.js",
+        "README.md"
+    ],
+    "exports": {
+        ".": "./eslint.base.config.js",
+        "./eslint.base.config.js": "./eslint.base.config.js",
+        "./eslint.react.config.js": "./eslint.react.config.js",
+        "./prettier.config.js": "./prettier.config.js"
+    },
+    "scripts": {
+        "build": "echo \"No build step required\" && exit 0",
+        "clean": "rm -rf node_modules",
+        "test": "echo \"No tests step required\" && exit 0",
+        "coverage": "echo \"No coverage step required\" && exit 0",
+        "lint": "echo \"No linting step required\" && exit 0",
+        "spellcheck": "cspell lint '**/*.md' --no-progress",
+        "ci:release": "semantic-release",
+        "prepare": "husky"
+    },
+    "dependencies": {
+        "@eslint/js": "9.39.1",
+        "eslint": "9.39.1",
+        "eslint-config-prettier": "10.1.8",
+        "eslint-plugin-prettier": "5.5.4",
+        "globals": "16.5.0",
+        "prettier": "3.6.2",
+        "typescript": "5.9.3",
+        "typescript-eslint": "8.46.3"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "20.1.0",
+        "@commitlint/config-conventional": "20.0.0",
+        "@semantic-release/commit-analyzer": "13.0.1",
+        "@semantic-release/exec": "7.1.0",
+        "cspell": "9.3.0",
+        "husky": "9.1.7",
+        "semantic-release": "25.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/workinprogress-ai/pkg-eslint-config"
+    },
+    "keywords": [
+        "linter",
+        "eslint",
+        "prettier",
+        "formatter",
+        "configuration"
+    ]
+}

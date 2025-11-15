@@ -1,0 +1,7 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "words": ["workinprogress"],
+    "ignorePaths": ["dist", "node_modules"],
+    "files": ["**/*.{js,md}"]
+}
