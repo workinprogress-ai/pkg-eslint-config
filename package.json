@@ -4,7 +4,11 @@
     "type": "module",
     "description": "Eslint and Prettier configurations for WIP projects",
     "author": "WIP Team",
-    "packageManager": "bun@1.3.2",
+    "packageManager": "pnpm@8.7.1",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com",
+        "access": "public"
+    },
     "sideEffects": false,
     "main": "./eslint.base.config.js",
     "files": [
@@ -48,7 +52,7 @@
         "@semantic-release/release-notes-generator": "12.1.0",
         "cspell": "9.3.0",
         "husky": "9.1.7",
-        "semantic-release": "25.0.2"
+        "semantic-release": "23.0.8"
     },
     "repository": {
         "type": "git",
