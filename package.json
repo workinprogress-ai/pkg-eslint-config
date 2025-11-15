@@ -1,6 +1,6 @@
 {
     "name": "@workinprogress-ai/eslint-config",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "type": "module",
     "description": "Eslint and Prettier configurations for WIP projects",
     "author": "WIP Team",
