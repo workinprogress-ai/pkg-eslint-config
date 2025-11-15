@@ -21,11 +21,16 @@ export default {
                 },
             },
         ],
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/npm",
         [
-            "@semantic-release/exec",
+            "@semantic-release/git",
             {
-                publishCmd: "./.azuredevops/prepare-release-version.sh '${nextRelease.version}'",
+                assets: ["package.json", "CHANGELOG.md"],
+                message: "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
             },
         ],
+        "@semantic-release/github",
     ],
 };
