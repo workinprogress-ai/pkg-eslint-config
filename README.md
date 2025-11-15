@@ -4,13 +4,13 @@ ESLint configuration package with integrated Prettier formatting for TypeScript 
 
 ## Features
 
--   **Modern ESLint Flat Config** - Uses the latest ESLint configuration format
--   **TypeScript Support** - Strict TypeScript rules with sensible defaults
--   **Prettier Integration** - Built-in Prettier rules for consistent formatting
--   **Node.js Ready** - Configured for Node.js and ES2022+ environments
--   **Monorepo Friendly** - Optimized for monorepo setups with proper ignore patterns
--   **Zero Configuration** - All dependencies included, just install and use
--   **React Support** - Optional React configuration available
+- **Modern ESLint Flat Config** - Uses the latest ESLint configuration format
+- **TypeScript Support** - Strict TypeScript rules with sensible defaults
+- **Prettier Integration** - Built-in Prettier rules for consistent formatting
+- **Node.js Ready** - Configured for Node.js and ES2022+ environments
+- **Monorepo Friendly** - Optimized for monorepo setups with proper ignore patterns
+- **Zero Configuration** - All dependencies included, just install and use
+- **React Support** - Optional React configuration available
 
 ## Installation
 
@@ -116,16 +116,16 @@ export default [
 
 ### ESLint Rules
 
--   **Base ESLint** - Core recommended rules
--   **TypeScript** - Strict TypeScript configuration
--   **Code Quality** - Best practices and error prevention
--   **Modern JavaScript** - ES2022+ features support
+- **Base ESLint** - Core recommended rules
+- **TypeScript** - Strict TypeScript configuration
+- **Code Quality** - Best practices and error prevention
+- **Modern JavaScript** - ES2022+ features support
 
 ### Prettier Integration
 
--   **Consistent Formatting** - Predefined Prettier rules
--   **No Conflicts** - ESLint and Prettier work together seamlessly
--   **One Command** - `eslint --fix` handles both linting and formatting
+- **Consistent Formatting** - Predefined Prettier rules
+- **No Conflicts** - ESLint and Prettier work together seamlessly
+- **One Command** - `eslint --fix` handles both linting and formatting
 
 ### Key Rules Summary
 
@@ -152,34 +152,34 @@ export default [
 
 ### Ignored Patterns
 
--   `**/dist/**` - Build outputs
--   `**/build/**` - Build outputs
--   `**/out/**` - Build outputs
--   `**/.next/**` - Next.js outputs
--   `**/node_modules/**` - Dependencies
--   `**/.git/**` - Version control
--   `**/*.d.ts` - TypeScript declarations
--   `**/coverage/**` - Test coverage
--   `**/.cache/**` - General cache
+- `**/dist/**` - Build outputs
+- `**/build/**` - Build outputs
+- `**/out/**` - Build outputs
+- `**/.next/**` - Next.js outputs
+- `**/node_modules/**` - Dependencies
+- `**/.git/**` - Version control
+- `**/*.d.ts` - TypeScript declarations
+- `**/coverage/**` - Test coverage
+- `**/.cache/**` - General cache
 
 ## Available Exports
 
 This package provides multiple entry points:
 
--   `@workinprogress-ai/eslint-config` - Base ESLint configuration (default export)
--   `@workinprogress-ai/eslint-config/eslint.base.config.js` - Base ESLint configuration (explicit)
--   `@workinprogress-ai/eslint-config/eslint.react.config.js` - React-specific configuration
--   `@workinprogress-ai/eslint-config/prettier.config.js` - Prettier configuration
+- `@workinprogress-ai/eslint-config` - Base ESLint configuration (default export)
+- `@workinprogress-ai/eslint-config/eslint.base.config.js` - Base ESLint configuration (explicit)
+- `@workinprogress-ai/eslint-config/eslint.react.config.js` - React-specific configuration
+- `@workinprogress-ai/eslint-config/prettier.config.js` - Prettier configuration
 
 ## Package Contents
 
 When you install this package, you get:
 
--   **ESLint** (v9.11.1) - The linter
--   **Prettier** (v3.3.3) - The formatter
--   **TypeScript** (v5.6.2) - TypeScript support
--   **typescript-eslint** (v8.7.0) - TypeScript ESLint integration
--   **All necessary plugins and configs** - No additional setup needed
+- **ESLint** (v9.11.1) - The linter
+- **Prettier** (v3.3.3) - The formatter
+- **TypeScript** (v5.6.2) - TypeScript support
+- **typescript-eslint** (v8.7.0) - TypeScript ESLint integration
+- **All necessary plugins and configs** - No additional setup needed
 
 ## Repository
 
